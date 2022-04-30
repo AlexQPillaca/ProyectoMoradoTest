@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\test2\\test2.csproj": {}
+    "c:\\Users\\jkgn4\\ProyectoMoradoTest\\test2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\test2\\test2.csproj": {
+    "c:\\Users\\jkgn4\\ProyectoMoradoTest\\test2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\test2\\test2.csproj",
+        "projectUniqueName": "c:\\Users\\jkgn4\\ProyectoMoradoTest\\test2.csproj",
         "projectName": "test2",
-        "projectPath": "C:\\Users\\USUARIO\\test2\\test2.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\test2\\obj\\",
+        "projectPath": "c:\\Users\\jkgn4\\ProyectoMoradoTest\\test2.csproj",
+        "packagesPath": "C:\\Users\\jkgn4\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\jkgn4\\ProyectoMoradoTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jkgn4\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
