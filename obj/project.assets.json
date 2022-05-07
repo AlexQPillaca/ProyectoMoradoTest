@@ -10328,11 +10328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\USUARIO\\test2\\test2.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj",
       "projectName": "test2",
-      "projectPath": "c:\\Users\\USUARIO\\test2\\test2.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\USUARIO\\test2\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"

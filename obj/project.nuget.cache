@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4votrbwaukPQkaO4zciqfsBezlp9wThnTNfOorIMzbMofsNtzWO1RmtB7Sr6ucKft4W0zCaZL1tPU4FEeKyGmg==",
+  "dgSpecHash": "SVSlezKTLX8Onqn6vzRZy8lceAwRjAdebKf+T6nCKWsf9s7W7sB0+9GLE0OOwZe1+yWUxZ/aAB04N4HYRFsD0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\test2\\test2.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
