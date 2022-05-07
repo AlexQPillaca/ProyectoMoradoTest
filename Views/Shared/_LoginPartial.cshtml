@@ -3,10 +3,28 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
+    <li class="nav-item"> 
+        <div class="input-group mb-3">
+            <form asp-controller="Catalogo" asp-action="Index">
+                <input type="text" class="form-control" name="searchString" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-info" type="submit">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </li>
+
+
+
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bievenido @User.Identity?.Name</a>
+        <form asp-controller="Proforma" asp-action="Index">
+            <input type="submit"  class="btn btn-outline-info mx-4" value="Carrito" / >
+        </form>
+    </li>
+    <li class="nav-item">
+        <a  class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bievenido @User.Identity?.Name</a>
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
@@ -21,7 +39,7 @@ else
     </li>
     <li class="nav-item">
         <a class="nav-link text-light" asp-area="Identity" asp-page="/Account/Login">
-        <img src="images/inicio.png" style="width:50px; margin-left: 20px;" alt="">
+        <img src="/images/inicio.png" style="width:50px; margin-left: 20px;" alt="">
         </a>
     </li>
 }
