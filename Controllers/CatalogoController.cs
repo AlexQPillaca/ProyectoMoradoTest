@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using test2.Models;
 using test2.Data; //Importamos para usar el DbContext
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace test2.Controllers
 {
@@ -14,15 +15,23 @@ namespace test2.Controllers
 
         private readonly ApplicationDbContext _context;
 
-        public CatalogoController(ApplicationDbContext context, ILogger<CatalogoController> logger)
+        private readonly UserManager<IdentityUser> _userManager;
+
+        public CatalogoController(ApplicationDbContext context, ILogger<CatalogoController> logger, UserManager<IdentityUser> userManager)
         {
             _context = context;
-            _logger = logger;      
+            _logger = logger;   
+            _userManager = userManager;   
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? searchString)
         {
             var productos = from o in _context.DatProductos select o;
+
+            if(!String.IsNullOrEmpty(searchString)){
+                productos = productos.Where(s => s.Name.Contains(searchString));
+            }
+
             return View(await productos.ToListAsync());
         }
 
@@ -33,6 +42,26 @@ namespace test2.Controllers
                 return NotFound();
             }
             return View(objProd);
+        }
+
+        public async Task<IActionResult> Add(int? id){
+            var userID = _userManager.GetUserName(User);
+            if(userID == null){
+                ViewData["Message"] = "Debe Iniciar Sesion antes de agregar un producto";
+                List<Producto> productos = new List<Producto>();
+                return View("Index", productos);
+            }else{
+                var producto = await _context.DatProductos.FindAsync(id);
+                Proforma proforma = new Proforma();
+                proforma.producto = producto;
+                proforma.Price = producto.Precio;
+                proforma.Quantity = 1;
+                proforma.UserID = userID;
+                _context.Add(proforma);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+
+            }
         }
 
 
