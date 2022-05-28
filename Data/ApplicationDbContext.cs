@@ -17,5 +17,10 @@ public class ApplicationDbContext : IdentityDbContext
 
      public DbSet<test2.Models.Producto> DatProductos { get; set;}
      public DbSet<test2.Models.Proforma> DataProforma { get; set;}
+    public DbSet<test2.Models.Pago> DataPago { get; set;}
+
+    public DbSet<test2.Models.Pedido> DataPedido { get; set;}
+    
+    public DbSet<test2.Models.DetallePedido> DataDetallePedido { get; set; }
 
 }
