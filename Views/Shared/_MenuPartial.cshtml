@@ -1,0 +1,16 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    IdentityUser myidentity = await Task.Run(() => UserManager.GetUserAsync(User));
+    var roles = await Task.Run(() => UserManager.GetRolesAsync(myidentity));
+
+    @if(roles.Contains("admin") ){    
+        <li class="nav-item">
+            <a class="nav-link text-light bi bi-cart" asp-area="" asp-controller="Producto" asp-action="Index">Productos</a>
+        </li>     
+    }
+
+}
