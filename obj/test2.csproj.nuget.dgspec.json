@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj": {}
+    "C:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj": {
+    "C:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj",
+        "projectUniqueName": "C:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
         "projectName": "test2",
-        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\test2.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Dalta push\\repostio_funko\\ProyectoMoradoTest\\obj\\",
+        "projectPath": "C:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+        "packagesPath": "C:\\Users\\Tendo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Tendo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,6 +71,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
             }
           },
           "imports": [
@@ -89,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
