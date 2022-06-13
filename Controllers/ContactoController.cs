@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using test2.Models;
 using test2.Data; //Importamos para usar el DbContext
+using test2.Integration.Sengrid;
 
 
 namespace test2.Controllers
@@ -13,10 +14,13 @@ namespace test2.Controllers
 
      private readonly ApplicationDbContext _context;
 
-    public ContactoController(ApplicationDbContext context, ILogger<ContactoController> logger)
+     private readonly SendMailIntegration _sendgrid;
+
+    public ContactoController(ApplicationDbContext context, ILogger<ContactoController> logger,SendMailIntegration sendgrid)
     {
         _context = context;
         _logger = logger;      
+         _sendgrid = sendgrid;  
     }
 
     public IActionResult Index()
@@ -27,15 +31,20 @@ namespace test2.Controllers
 
     //Recibir la data que nos llega con un objecto de tipo contacto para eso debemos importar el models
     [HttpPost]
-    public IActionResult Create(Contacto objContacto)
+    public async Task<IActionResult> Create(Contacto objContacto)
     {
         _context.Add(objContacto);
         _context.SaveChanges();
+        await _sendgrid.SendMail(objContacto.Email,
+                objContacto.Name,
+                "Bienvenido al e-comerce",
+                "Revisaremos su consulta en breves momentos y le responderemos",
+                SendMailIntegration.SEND_SENDGRID);            
+                    
         ViewData["Message"] = "Se registro el contacto";
         
         return View("Index");
     }
-
         
     }
 }

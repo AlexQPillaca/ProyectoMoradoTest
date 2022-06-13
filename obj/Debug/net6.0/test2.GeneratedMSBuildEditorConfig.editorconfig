@@ -8,81 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = test2
 build_property.RootNamespace = test2
-build_property.ProjectDir = C:\Users\USUARIO\Desktop\Dalta push\repostio_funko\ProyectoMoradoTest\
+build_property.ProjectDir = c:\Users\Tendo\Desktop\repofunko\ProyectoMoradoTest\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USUARIO\Desktop\Dalta push\repostio_funko\ProyectoMoradoTest
+build_property.MSBuildProjectDirectory = c:\Users\Tendo\Desktop\repofunko\ProyectoMoradoTest
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Areas/Identity/Pages/Account/Login.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Areas/Identity/Pages/Account/Register.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Areas/Identity/Pages/_ViewImports.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Catalogo/Details.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Catalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Catalogo/Index.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Catalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Contacto/Index.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Contacto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Home/Index.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Home/Privacy.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Proforma/index.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Pago/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Producto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Producto/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Producto/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Producto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Proforma/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZm9ybWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Proforma/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZm9ybWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Proforma/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZm9ybWFcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Shared/Error.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Shared/_MenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/_ViewImports.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/_ViewStart.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/Dalta push/repostio_funko/ProyectoMoradoTest/Views/Shared/_Layout.cshtml]
+[c:/Users/Tendo/Desktop/repofunko/ProyectoMoradoTest/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-su1eutnfsn

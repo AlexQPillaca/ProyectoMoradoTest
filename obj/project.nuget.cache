@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VFa6kxRrOLU25ESDh481OjhukJpT+O+x1vsHHmb+KMAnVsbZLs5m8fjdKuVjeEbescKbBo1KKJaAv2nbWK+nEQ==",
+  "dgSpecHash": "8DxuYdhEU2JycUVxsQx9+RMJdAcbQO+QhTGT+xjqck5GLPMM8zlu6cUVzucAWBs6E55OGqtxykRsTLrJImc2Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+  "projectFilePath": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tendo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tendo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
