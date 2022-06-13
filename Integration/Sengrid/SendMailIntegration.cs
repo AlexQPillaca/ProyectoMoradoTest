@@ -22,7 +22,7 @@ namespace test2.Integration.Sengrid
         public const string SEND_REST="REST";
 
         private string ACCESS_TOKEN ="";
-        private string From = "fduartej@usmp.pe"; 
+        private string From = "alex_quispe2@usmp.pe"; 
         private string FromLabel = "Mail Service Grupo morado"; 
 
         private const string URL_API_SENDGRID = "https://api.sendgrid.com/v3/mail/send";
@@ -63,8 +63,8 @@ namespace test2.Integration.Sengrid
             jsonObject.Append("\"demo\" ");
             jsonObject.Append("],");
             jsonObject.Append("\"from\": {");
-            jsonObject.Append("\"email\": \"fduartej@usmp.pe\","); 
-            jsonObject.Append("\"name\": \"Frederick \"");
+            jsonObject.Append("\"email\": \"alex_quispe2@usmp.pe\","); 
+            jsonObject.Append("\"name\": \"AlexitoQ \"");
             jsonObject.Append("},");
             jsonObject.Append("\"personalizations\": [");
             jsonObject.Append("{");
