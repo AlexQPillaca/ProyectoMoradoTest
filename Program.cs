@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using test2.Data;
+using test2.Integration.Sengrid;
 
 var builder = WebApplication.CreateBuilder(args);
 
