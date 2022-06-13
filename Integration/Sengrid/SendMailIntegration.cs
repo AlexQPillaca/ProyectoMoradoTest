@@ -68,7 +68,7 @@ namespace test2.Integration.Sengrid
             jsonObject.Append("      \"to\": [");
             jsonObject.Append("        {");
             jsonObject.Append("\"email\": \""+correoDestino+"\",");
-            jsonObject.Append("\"name\": \"AlexQ\" ");
+            jsonObject.Append("\"name\": \"Alex Q\" ");
             jsonObject.Append("}");
             jsonObject.Append("],");
             jsonObject.Append("\"subject\": \"Hola\" ");
