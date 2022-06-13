@@ -20,7 +20,7 @@ namespace test2.Controllers
     {
         _context = context;
         _logger = logger;      
-         _sendgrid = sendgrid;  
+        _sendgrid = sendgrid;  
     }
 
     public IActionResult Index()
