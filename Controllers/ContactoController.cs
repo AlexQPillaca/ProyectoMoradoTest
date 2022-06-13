@@ -35,11 +35,18 @@ namespace test2.Controllers
     {
         _context.Add(objContacto);
         _context.SaveChanges();
-        await _sendgrid.SendMail(objContacto.Email,
+         await _sendgrid.SendMail(objContacto.Email,
                 objContacto.Name,
                 "Bienvenido al e-comerce",
                 "Revisaremos su consulta en breves momentos y le responderemos",
-                SendMailIntegration.SEND_SENDGRID);            
+                SendMailIntegration.SEND_SENDGRID);
+
+            await _sendgrid.SendMail(objContacto.Email,
+                objContacto.Name,
+                "Bienvenido al e-comerce",
+                "Revisaremos su consulta en breves momentos y le responderemos",
+                SendMailIntegration.SEND_REST);
+      
                     
         ViewData["Message"] = "Se registro el contacto";
         

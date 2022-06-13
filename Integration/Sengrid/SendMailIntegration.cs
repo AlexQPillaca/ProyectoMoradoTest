@@ -46,6 +46,45 @@ namespace test2.Integration.Sengrid
         }
 
         private async Task  SendMailSengridRest(string correoDestino,string userDestino,string titulo, string contenido){
+         var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Accept.Clear();
+            httpClient.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+            httpClient.BaseAddress = new Uri(URL_API_SENDGRID);
+             httpClient.DefaultRequestHeaders.Authorization = 
+                new AuthenticationHeaderValue("Bearer", ACCESS_TOKEN);
+  
+            var jsonObject = new StringBuilder();
+            jsonObject.Append("{");
+            jsonObject.Append("\"categories\": [");
+            jsonObject.Append("\"demo\" ");
+            jsonObject.Append("],");
+            jsonObject.Append("\"from\": {");
+            jsonObject.Append("\"email\": \"alex_quispe2@usmp.pe\","); 
+            jsonObject.Append("\"name\": \"AlexQuispe \"");
+            jsonObject.Append("},");
+            jsonObject.Append("\"personalizations\": [");
+            jsonObject.Append("{");
+            jsonObject.Append("      \"to\": [");
+            jsonObject.Append("        {");
+            jsonObject.Append("\"email\": \""+correoDestino+"\",");
+            jsonObject.Append("\"name\": \"Alex Q\" ");
+            jsonObject.Append("}");
+            jsonObject.Append("],");
+            jsonObject.Append("\"subject\": \"Hola\" ");
+            jsonObject.Append("}");
+            jsonObject.Append("],");
+            jsonObject.Append("\"content\": [");
+            jsonObject.Append("{");
+            jsonObject.Append("\"type\": \"text/plain\",");
+            jsonObject.Append("\"value\": \"Hola ahora ya uso sendgrid!\" ");
+            jsonObject.Append("}");
+            jsonObject.Append("],  ");
+            jsonObject.Append("}");
+
+            var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
+            var result = await httpClient.PostAsync(URL_API_SENDGRID, content);
+
         }
     }
 }
