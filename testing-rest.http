@@ -1,0 +1,6 @@
+POST https://api.sendgrid.com/v3/mail/send HTTP/1.1
+Authorization: Bearer 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
+Content-Type: application/json
+
+
+{"personalizations":[{"to":[{"email":"pillaca98@gmail.com","name":"Mail Service"}],"subject":"Hello, World!"}],"content": [{"type": "text/plain", "value": "Heya!"}],"from":{"email":"alex_quispe2@usmp.pe","name":"AlexitoQ"},"reply_to":{"email":"sam.smith@example.com","name":"Sam Smith"}}
