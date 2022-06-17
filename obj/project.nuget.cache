@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7lOjHnae6eyrX0+BltoNqgJCJX76w1f4w0/pAXYzbFpyXVRsCbKVQ9VolfcVt7qqOLz+F6FqNPUrMFqDjPjI8w==",
+  "dgSpecHash": "JTHAZ/Elq+eN5yUcMxoweTKQm1UfcRsW0/la+2sX6Iu3+JjBOjcJl2z0VEmFkx3zbDpxVKnbeEdCNb3Rv1USQg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+  "projectFilePath": "C:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tendo\\.nuget\\packages\\anglesharp\\0.9.9\\anglesharp.0.9.9.nupkg.sha512",
     "C:\\Users\\Tendo\\.nuget\\packages\\epplus\\6.0.4\\epplus.6.0.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj": {}
+    "C:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj": {
+    "C:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+        "projectUniqueName": "C:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj",
         "projectName": "test2",
-        "projectPath": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+        "projectPath": "C:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj",
         "packagesPath": "C:\\Users\\Tendo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\obj\\",
+        "outputPath": "C:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tendo\\AppData\\Roaming\\NuGet\\NuGet.Config",

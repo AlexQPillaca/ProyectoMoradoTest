@@ -13507,11 +13507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+      "projectUniqueName": "c:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj",
       "projectName": "test2",
-      "projectPath": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\test2.csproj",
+      "projectPath": "c:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\test2.csproj",
       "packagesPath": "C:\\Users\\Tendo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Tendo\\Desktop\\repofunko\\ProyectoMoradoTest\\obj\\",
+      "outputPath": "c:\\Users\\Tendo\\Desktop\\repfunkos\\ProyectoMoradoTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tendo\\AppData\\Roaming\\NuGet\\NuGet.Config",
